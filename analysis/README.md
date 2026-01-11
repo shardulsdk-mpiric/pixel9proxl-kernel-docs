@@ -10,6 +10,7 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 4. [Build Command Flow](03-build-command-flow.md) - Understanding build_caimito.sh execution, Bazel target processing, build order, and artifact distribution
 5. [Module System](04-module-system.md) - Understanding kernel module structure, build process, signing, loading sequence, and module types (vendor_dlkm, system_dlkm, vendor_ramdisk)
 6. [Boot Process and Partition Structure](05-boot-process.md) - Understanding boot.img, vendor_kernel_boot.img, partition structure, and boot process
+7. [Root Requirements and Kernel Modifications](06-root-requirements.md) - Understanding kernel changes needed for root, SELinux modifications, root methods (kernel vs modules), and security/stability impact
 
 ## Analysis Status
 
@@ -18,6 +19,7 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 - ✅ [Build Command Flow](03-build-command-flow.md) - Completed
 - ✅ [Module System](04-module-system.md) - Completed
 - ✅ [Boot Process and Partition Structure](05-boot-process.md) - Completed
+- ✅ [Root Requirements and Kernel Modifications](06-root-requirements.md) - Completed
 - ⏳ Additional analyses coming...
 
 ## How to Read These Documents
