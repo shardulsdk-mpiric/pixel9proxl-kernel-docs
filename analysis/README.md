@@ -6,10 +6,14 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 
 1. [Analysis Plan](00-plan.md) - Planned areas for deep analysis and investigation
 2. [GKI Architecture](01-gki-architecture.md) - Understanding Generic Kernel Image architecture, mixed builds, base kernel extension, and how to build full kernel replacements
+3. [Build Configuration System](02-build-configuration.md) - Understanding build.config file hierarchy, defconfig fragment merging, Kconfig extensions, and configuration inheritance
+4. [Build Command Flow](03-build-command-flow.md) - Understanding build_caimito.sh execution, Bazel target processing, build order, and artifact distribution
 
 ## Analysis Status
 
 - ✅ [GKI Architecture](01-gki-architecture.md) - Completed
+- ✅ [Build Configuration System](02-build-configuration.md) - Completed
+- ✅ [Build Command Flow](03-build-command-flow.md) - Completed
 - ⏳ Additional analyses coming...
 
 ## How to Read These Documents
