@@ -4,6 +4,26 @@
 
 This documentation provides a comprehensive guide to building and customizing the kernel for the Pixel 9 Pro XL (codename: `caimito`). It covers the build process, GKI architecture, customization strategies, and practical guides for development and deployment.
 
+## Quick Start
+
+### Using Repo Tool (Recommended)
+
+If you're using the Android kernel repo tool workflow, see [setup/README.md](setup/README.md) for instructions on adding this documentation to your repo sync.
+
+**Quick setup:**
+```bash
+mkdir -p .repo/local_manifests
+cp setup/pixel9proxl-docs.xml .repo/local_manifests/
+repo sync docs
+```
+
+### Direct Clone
+
+If you prefer to clone directly:
+```bash
+git clone https://github.com/shardulsdk-mpiric/pixel9proxl-kernel-docs.git docs
+```
+
 ## Documentation Structure
 
 ### [Overview](overview.md)
