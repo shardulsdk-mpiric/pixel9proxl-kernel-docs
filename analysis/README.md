@@ -11,6 +11,7 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 5. [Module System](04-module-system.md) - Understanding kernel module structure, build process, signing, loading sequence, and module types (vendor_dlkm, system_dlkm, vendor_ramdisk)
 6. [Boot Process and Partition Structure](05-boot-process.md) - Understanding boot.img, vendor_kernel_boot.img, partition structure, and boot process
 7. [Root Requirements and Kernel Modifications](06-root-requirements.md) - Understanding kernel changes needed for root, SELinux modifications, root methods (kernel vs modules), and security/stability impact
+8. [Device Tree System](07-device-tree-system.md) - Understanding DTS/DTSI structure, DTBO overlays, device tree compilation, variant support, and runtime behavior
 
 ## Analysis Status
 
@@ -20,6 +21,7 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 - ✅ [Module System](04-module-system.md) - Completed
 - ✅ [Boot Process and Partition Structure](05-boot-process.md) - Completed
 - ✅ [Root Requirements and Kernel Modifications](06-root-requirements.md) - Completed
+- ✅ [Device Tree System](07-device-tree-system.md) - Completed
 - ⏳ Additional analyses coming...
 
 ## How to Read These Documents
