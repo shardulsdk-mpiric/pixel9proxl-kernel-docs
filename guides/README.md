@@ -4,7 +4,7 @@ This directory contains step-by-step guides for common tasks and workflows relat
 
 ## Available Guides
 
-*Guides coming soon...*
+1. [KernelSU Integration Guide](kernelsu-integration.md) - Complete step-by-step guide for integrating KernelSU root solution into the kernel build
 
 ## Navigation
 
