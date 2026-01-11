@@ -13,6 +13,7 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 7. [Root Requirements and Kernel Modifications](06-root-requirements.md) - Understanding kernel changes needed for root, SELinux modifications, root methods (kernel vs modules), and security/stability impact
 8. [Device Tree System](07-device-tree-system.md) - Understanding DTS/DTSI structure, DTBO overlays, device tree compilation, variant support, and runtime behavior
 9. [KMI (Kernel Module Interface) System](08-kmi-system.md) - Understanding KMI, symbol lists, enforcement, violations, and how to add symbols
+10. [Flashing and Deployment Process](09-flashing-deployment.md) - Understanding flash sequence, A/B slot system, fastboot commands, recovery procedures, and backup/restore
 
 ## Analysis Status
 
@@ -24,6 +25,7 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 - ✅ [Root Requirements and Kernel Modifications](06-root-requirements.md) - Completed
 - ✅ [Device Tree System](07-device-tree-system.md) - Completed
 - ✅ [KMI (Kernel Module Interface) System](08-kmi-system.md) - Completed
+- ✅ [Flashing and Deployment Process](09-flashing-deployment.md) - Completed
 - ⏳ Additional analyses coming...
 
 ## How to Read These Documents
