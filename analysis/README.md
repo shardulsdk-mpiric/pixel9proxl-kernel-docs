@@ -14,6 +14,9 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 8. [Device Tree System](07-device-tree-system.md) - Understanding DTS/DTSI structure, DTBO overlays, device tree compilation, variant support, and runtime behavior
 9. [KMI (Kernel Module Interface) System](08-kmi-system.md) - Understanding KMI, symbol lists, enforcement, violations, and how to add symbols
 10. [Flashing and Deployment Process](09-flashing-deployment.md) - Understanding flash sequence, A/B slot system, fastboot commands, recovery procedures, and backup/restore
+11. [Build Optimization](10-build-optimization.md) - Understanding Bazel caching, incremental builds, parallel execution, and optimization strategies
+12. [Testing and Validation](11-testing-validation.md) - Understanding testing frameworks, unit tests, integration tests, and validation procedures
+13. [Debugging and Troubleshooting](12-debugging-troubleshooting.md) - Understanding debugging tools, log analysis, crash analysis, and troubleshooting techniques
 
 ## Analysis Status
 
@@ -26,6 +29,9 @@ This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pr
 - ✅ [Device Tree System](07-device-tree-system.md) - Completed
 - ✅ [KMI (Kernel Module Interface) System](08-kmi-system.md) - Completed
 - ✅ [Flashing and Deployment Process](09-flashing-deployment.md) - Completed
+- ✅ [Build Optimization](10-build-optimization.md) - Completed
+- ✅ [Testing and Validation](11-testing-validation.md) - Completed
+- ✅ [Debugging and Troubleshooting](12-debugging-troubleshooting.md) - Completed
 - ⏳ Additional analyses coming...
 
 ## How to Read These Documents
