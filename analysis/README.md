@@ -1,0 +1,28 @@
+# Deep Analysis Documentation
+
+This directory contains deep-dive analyses of specific aspects of the Pixel 9 Pro XL kernel build system. These documents provide detailed technical understanding of how the system works.
+
+## Available Analyses
+
+1. [Analysis Plan](00-plan.md) - Planned areas for deep analysis and investigation
+2. [GKI Architecture](01-gki-architecture.md) - Understanding Generic Kernel Image architecture, mixed builds, base kernel extension, and how to build full kernel replacements
+
+## Analysis Status
+
+- ✅ [GKI Architecture](01-gki-architecture.md) - Completed
+- ⏳ Additional analyses coming...
+
+## How to Read These Documents
+
+These analyses are designed to be read:
+1. **Independently**: Each analysis can be read on its own, though cross-references to other documents are provided
+2. **In order**: For newcomers, reading analyses in numerical order (01, 02, etc.) provides a logical progression
+3. **By topic**: Jump to the specific analysis that addresses your question
+
+## Navigation
+
+- Return to [Main Documentation Index](../README.md)
+- See [Overview](../overview.md) for high-level understanding
+- See [Guides](../guides/README.md) for step-by-step instructions
+- See [Reference](../reference/README.md) for quick reference materials
+
