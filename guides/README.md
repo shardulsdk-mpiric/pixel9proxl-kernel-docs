@@ -4,7 +4,11 @@ This directory contains step-by-step guides for common tasks and workflows relat
 
 ## Available Guides
 
-1. [KernelSU Integration Guide](kernelsu-integration.md) - Complete step-by-step guide for integrating KernelSU root solution into the kernel build
+1. **[KernelSU Integration Guide](kernelsu-integration.md)**: Complete step-by-step guide for integrating KernelSU root solution into the kernel build
+
+2. **[Flashing Kernel](flashing-kernel.md)**: Comprehensive guide for safely flashing your custom kernel to the Pixel 9 Pro XL device, including backup procedures, A/B slot management, and rollback instructions
+
+3. **[KernelSU Troubleshooting](kernelsu-troubleshooting.md)**: Diagnostic steps and solutions for KernelSU build and runtime issues
 
 ## Navigation
 
